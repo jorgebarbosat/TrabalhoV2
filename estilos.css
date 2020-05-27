@@ -1,0 +1,85 @@
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+  }
+  h1 {
+    background-image: url(img/sobre-background.jpg);
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+figure  {
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+  }
+ 
+  figcaption {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  p {
+      padding: 0 45px;
+      text-indent: 15px;
+      text-align: justify;
+  }
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+footer {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+footer img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+/* Formatação do Menu*/
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left:300px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+    background-color: #606060;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: white;
+}
